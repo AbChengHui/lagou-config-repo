@@ -1,5 +1,5 @@
 db:
-  port: 110
+  port: 120
 spring:
   mail:
     host: smtp.qq.com # 发送邮件服务器
