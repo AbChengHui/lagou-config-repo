@@ -4,3 +4,20 @@ spring:
     url: jdbc:mysql://localhost:3306/lagou?useUnicode=true&characterEncoding=utf8
     username: root
     password: root
+  mail:
+    host: smtp.163.com # 发送邮件服务器，QQ邮箱为smtp.qq.com
+    protocol: smtp  # 服务协议
+    username: adxyz_05113657@163.com # 发送邮件账户
+    password:  kskmgdondyrgbfjh # 授权码
+    test-connection: true
+    from: adxyz_05113657@163.com #
+    default-encoding: utf-8
+    properties:
+      mail:
+        smtp:
+          port: 465 #
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
