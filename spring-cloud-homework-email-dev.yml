@@ -1,11 +1,11 @@
 spring:
   mail:
-    host: smtp.163.com # 发送邮件服务器，QQ邮箱为smtp.qq.com
+    host: smtp.qq.com # 发送邮件服务器
     protocol: smtp  # 服务协议
-    username: adxyz_05113657@163.com # 发送邮件账户
-    password:  kskmgdondyrgbfjh # 授权码
+    username: 994482866@qq.com # 发送邮件账户
+    password: kskmgdondyrgbfjh # 授权码
     test-connection: true
-    from: adxyz_05113657@163.com #
+    from: 994482866@qq.com #
     default-encoding: utf-8
     properties:
       mail:
