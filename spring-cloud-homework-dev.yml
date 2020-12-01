@@ -4,7 +4,13 @@ spring:
     url: jdbc:mysql://localhost:3306/lagou?useSSL=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: root
-
+    
+  rabbitmq:   # 配置rabbitMq相关信息，rabbitMq默认通信端口5672,页面控制台端口使用15672,默认用户名密码guest/guest
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    
   mail:
     host: smtp.qq.com # 发送邮件服务器
     protocol: smtp  # 服务协议
