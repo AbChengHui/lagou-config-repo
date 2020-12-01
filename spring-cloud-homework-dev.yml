@@ -5,6 +5,14 @@ spring:
     username: root
     password: root
     
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #避免将驼峰命名转换为下划线命名
+
+    
   rabbitmq:   # 配置rabbitMq相关信息，rabbitMq默认通信端口5672,页面控制台端口使用15672,默认用户名密码guest/guest
     host: 127.0.0.1
     port: 5672
